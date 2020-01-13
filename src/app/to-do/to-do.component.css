@@ -1,0 +1,80 @@
+.flex-container {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    padding-bottom: 5px;
+    width: 50%;
+    margin: auto;
+}
+
+.filter {
+    margin-left: 10px;
+    width: 50%;
+    text-align: left;
+    font-size: large;
+}
+
+h1 {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+
+.completed {
+    text-decoration: line-through;
+}
+
+.completeButton {
+    color: #ff1493;
+    border: 1px solid #ff1493;
+    border-radius: 10px;
+}
+
+.addTask {
+    margin: 10px;
+    width: 50%;
+    font-size: large;
+}
+
+.addButton {
+    background-color: #ff1493;
+    color: white;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: large;
+}
+
+ul li:hover {
+    background-color: #eee;
+}
+
+.close {
+    cursor: pointer;
+    margin-left: 10px;
+}
+  
+.close:hover {
+    color:red;
+}
+  
+.close {
+    border-style: none;
+    margin:0;
+    padding:0;
+    margin-left: 13.0em;
+    float:right;
+}
+
+li {
+   
+   
+
+}

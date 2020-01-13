@@ -1,0 +1,21 @@
+<div class="flex-container">
+    <h1>To-Do List</h1>
+    <h2>A place to store To-Dos</h2>
+    <hr>
+        <input type="text" placeholder="Filter ToDos" class="filter" (input)="filterSearch()" [(ngModel)]="filterInput" >    
+        <ol >
+            <li *ngFor="let task of filtertodo; let i = index"  [ngClass]="{completed: task.completed}"  >
+
+                <span >
+                    <button class="completeButton" *ngIf= !task.completed (click)=taskCompleted(task)>Complete</button> 
+                    {{ task.task }} 
+            </span>
+            
+            <span class="close" (click)="removeTask(task)">x</span>
+            </li>
+        </ol>
+        <input type="text" placeholder="Add Task" class="addTask" [(ngModel)]="newTask">
+        <button class="addButton" (click)="addTask(newTask)">Add</button>
+</div>
+
+<!--*ngIf=task.task.includes(filterTask)-->

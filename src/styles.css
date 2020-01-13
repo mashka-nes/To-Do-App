@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+/*Style guide:
+● Font-family: Open Sans;
+● Font-weight: 300;
+● Body background: linear-gradient(to right, #f857a6, #ff5858)
+● Icons: Font Awesome or Material Icons
+● Box-shadow: box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+● Colors:
+#bbb
+#eee
+#ff0000
+#ff69b4
+#ff1493*/ 
+
+body {
+    Font-family: Open Sans;
+    Font-weight: 300;
+    background: linear-gradient(to right, #f857a6, #ff5858);
+}
